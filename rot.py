@@ -1,6 +1,5 @@
 alphabets_latin = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "v", "x", "y", "z"]
 alphabets_english = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-print(len(alphabets_english))
 cutoff = 12
 
 def get_rot13(letter: str, alphabet_type: str = "latin"):
@@ -28,7 +27,7 @@ def get_rot13(letter: str, alphabet_type: str = "latin"):
     return out
 
 if __name__ == "__main__":
-    letter = "hello"
+    letter = "yiwere"
     [print(f"{let} => {get_rot13(let, 'eng')}", sep=" ") for let in letter]
     
 
