@@ -27,7 +27,7 @@ def get_rot13(letter: str, alphabet_type: str = "latin"):
     return out
 
 if __name__ == "__main__":
-    letter = "yiwere"
+    letter = "muftawu"
     [print(f"{let} => {get_rot13(let, 'eng')}", sep=" ") for let in letter]
     
 
